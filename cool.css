@@ -1,0 +1,24 @@
+.root{
+    -fx-font: 16px "Heiti TC"
+}
+.button{
+    -fx-background-color:#ffffff;
+}
+.button:hover{
+    -fx-background-color:#efefef;
+}
+.button:pressed{
+    -fx-background-color:#cbcbcb;
+}
+
+#gameplayPane{
+    -fx-background-color:radial-gradient(center 50% 50%, radius 100%, white,#dddddd)
+/*    -fx-background-color:radial-gradient(center 50% 50%, radius 100%, #ffb440,#ff9a00)*/
+}
+
+#playerTurn{
+    -fx-font: 20px "Heiti TC"
+}
+#title{
+    -fx-font: 48px "Heiti TC"
+}
